@@ -16,7 +16,7 @@ import logo from "./logo.png";
 import logo_dark from "./logo_dark.png";
 import mail_icon from "./mail_icon.png";
 import mail_icon_dark from "./mail_icon_dark.png";
-import profile_img from "./profile-img.png";
+import profile_img from "./profile.png";
 import download_icon from "./download-icon.png";
 import hand_icon from "./hand-icon.png";
 import header_bg_color from "./header-bg-color.png";
@@ -38,7 +38,7 @@ import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
 import jira from "./jira.png";
 import postman from "./postman.png";
-import tcs from './tcs.png'
+import tcs from "./tcs.png";
 
 export const assets = {
   tcs,
@@ -109,57 +109,70 @@ export const serviceData = [
   {
     icon: assets.web_icon,
     title: "Web design",
-    description: "Web development is the process of building and maintaining websites or web applications. It involves coding, designing, and optimizing sites for performance, usability, and responsiveness across devices.",
+    description:
+      "Web development is the process of building and maintaining websites or web applications. It involves coding, designing, and optimizing sites for performance, usability, and responsiveness across devices.",
     slug: "web-design", // ✅ Required!
   },
   {
     icon: assets.mobile_icon,
     title: "Mobile app",
-    description: "Mobile app development is the process of creating software applications that run on mobile devices like smartphones and tablets. It involves designing user-friendly interfaces and coding apps for platforms like Android and iOS.",
+    description:
+      "Mobile app development is the process of creating software applications that run on mobile devices like smartphones and tablets. It involves designing user-friendly interfaces and coding apps for platforms like Android and iOS.",
     slug: "mobile-app",
   },
   {
     icon: assets.ui_icon,
     title: "UI/UX design",
-    description: "UI/UX design focuses on creating intuitive, engaging, and user-friendly digital experiences.Together, UI/UX design ensures a seamless and satisfying journey for users.",
+    description:
+      "UI/UX design focuses on creating intuitive, engaging, and user-friendly digital experiences.Together, UI/UX design ensures a seamless and satisfying journey for users.",
     slug: "ui-ux-design",
   },
   {
     icon: assets.graphics_icon,
     title: "Application Support Analyst",
-    description: "An Application Support IT Analyst ensures the smooth functioning of business applications by diagnosing issues, providing technical support, maintaining system performance, and coordinating with development teams for bug fixes or enhancements",
+    description:
+      "An Application Support IT Analyst ensures the smooth functioning of business applications by diagnosing issues, providing technical support, maintaining system performance, and coordinating with development teams for bug fixes or enhancements",
     slug: "application-support-analyst",
   },
 ];
 
 export const experiences = [
   {
-    title: "Frontend Developer",
-    company_name: "Tech Solutions Inc.",
-    icon: '', // or use a URL
+    title: "React Native Developer",
+    company_name: "Tata Consultancy Services",
+    icon: "",
     iconBg: "#383E56",
-    date: "Jan 2022 - Present",
+    date: "Mar 2023- Present",
     points: [
-      "Developed responsive web applications using React and Tailwind CSS.",
-      "Integrated APIs and ensured smooth UI/UX workflows.",
-      "Participated in daily scrums and sprint planning meetings.",
+      "Interpreted business logic from client user stories and planned delivery timelines to ensure 100% SDLC completion.",
+      "Developed iOS and Android UI for mobile and tablet platforms using React Native and JavaScript.  ",
+      'Integrated 100+ backend utilities via Java Spring Boot REST APIs, ensuring seamless data flow.',
+      'Owned iOS build and deployment processes (TestFlight) as the sole MacBook user on the team.',
+      'Optimized iOS performance and ensured App Store compliance through targeted debugging.',
+      'Played a key role in iOS-specific debugging and performance optimization, ensuring compliance with Apple App Store standards.',
+      'Validated cross-device functionality via end-to-end testing using Sauce Labs.Ensured code quality and coverage (~80%) using SonarQube for static analysis and technical debt reduction.  '
     ],
   },
-   {
-    title: "Frontend Developer",
-    company_name: "Tech Solutions Inc.",
-    icon: "/icons/tech_logo.png", // or use a URL
+  {
+    title: "ReactJS Developer ",
+    company_name: "Tata Consultancy Services",
+    icon: "/icons/tech_logo.png", 
     iconBg: "#383E56",
-    date: "Jan 2022 - Present",
+    date: "Apr 2022 - Mar 2023",
     points: [
-      "Developed responsive web applications using React and Tailwind CSS.",
-      "Integrated APIs and ensured smooth UI/UX workflows.",
-      "Participated in daily scrums and sprint planning meetings.",
+      "Understood the functional and non-functional requirements of the feature and designed the HLD documentation for internal audits, outlining component interactions, logic, data flow and optimizations for better UX, thereby reducing dev reworks by 100% ",
+      "Orchestrated global state management for the data layer using Context API, useReducer for handling complex state and implemented possible data normalizations to have a O(1) lookup ",
+      "Utilized GitLab for version control and code repositories management to ensure seamless collaboration through accurate code tracking, reducing deployment errors by 85% ",
+      'Transformed design mockups and wireframes into responsive and pixel-perfect UI components, achieving a 85% fidelity rate to original designs, meeting client expectations ',
+      'Reduced the initial app loading time by optimizing core web vitals and inlining critical assets and dependencies of the selected LCP candidate, resulting in a render time of 0.9s ',
+      'Revamped the reconciliation process by memoizing the heavy running functions to maintain referential equality leading to an 80% more efficient tree conversion through react hooks',
+      'Optimized images by using WebP formats, progressive JPEGs, and caching for reduced latency and on-demand loading, resulting in a 50% reduction in total bytes and rendering time ',
+      'Conducted testing on must-go features of the app using Jest and React Testing Library, achieving nearly 80% test coverage ',
+      'Refactored large components into smaller, single-responsibility units, cutting code complexity by 35% and promoted reusability by implementing HOC and custom hooks  '
     ],
   },
   // Add more experiences...
 ];
-
 
 export const infoList = [
   {
